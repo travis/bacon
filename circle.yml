@@ -1,3 +1,4 @@
 checkout:
   post:
-    - echo "commit 1 in travisbacon"
+    - echo hams
+    - echo $bacon
