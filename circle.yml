@@ -1,4 +1,7 @@
-checkout:
-  post:
-    - echo hams
-    - echo $bacon
+machine:
+  environment:
+    foo: yaml
+
+test:
+  override:
+    - echo $foo
